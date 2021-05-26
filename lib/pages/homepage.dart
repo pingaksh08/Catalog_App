@@ -1,3 +1,4 @@
+import 'package:catalog_app/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatefulWidget {
@@ -13,8 +14,7 @@ class _HomepageState extends State<Homepage> {
         title: Text('Catalog App'),
         centerTitle: true,
       ),
-      drawer: Drawer(),
-      
+      drawer: MyDrawer(),
     );
   }
 }
